@@ -13,8 +13,15 @@
   <div class="container">
     <h2>JOGO DA MEMÓRIA</h2>
     <div class="game"></div>
-    <button class="reset" onclick="window.location.reload()">RESET GAME</button>
   </div>
+  <dialog>
+    <div class="modal">
+      <p class="modal">
+        Parabéns, você venceu!
+      </p>
+      <button class="button" onclick="window.location.reload()">RESETE GAME</button>
+    </div>
+  </dialog>
 
   <script src="./src/scripts/engine.js" defer></script>
 </body>

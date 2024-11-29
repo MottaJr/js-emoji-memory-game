@@ -33,24 +33,6 @@ h2 {
   letter-spacing: 0.1em;
 }
 
-.reset {
-  padding: 15px 20px;
-  width: 100%;
-  color: #000;
-  background-color: #fff;
-  border: none;
-  font-size: 1.5em;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  cursor: pointer;
-  font-weight: 600;
-}
-
-.reset:focus {
-  color: #ec38bc;
-  background-color: #262809;
-}
-
 .game {
   width: 430px;
   height: 430px;
@@ -155,11 +137,6 @@ dialog{
 button:hover{
   color: #fff;
   background-color: #ec38bc;
-}
-
-.button:focus {
-  color: #ec38bc;
-  background-color: #2e0450;
 }
 
 p{
